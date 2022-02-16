@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
         mStudentList.add( StudentData( "최재훈", 1994, "서울시 동대문구" ) )
         mStudentList.add( StudentData( "이성노", 1988, "서울시 동대문구" ) )
 
+//        어댑터 변수에 어댑터클래스(StudentAdapter) 객체화
         mAdapter = StudentAdapter( this, R.layout.student_list_item, mStudentList)
         studentListView.adapter = mAdapter
         
