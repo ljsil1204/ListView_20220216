@@ -13,6 +13,8 @@ class MainActivity : AppCompatActivity() {
 
 
     lateinit var mAdapter : StudentAdapter
+
+//    데이터 목록 담을 그릇을 멤버변수로 생성
     val mStudentList = ArrayList<StudentData>()
     
     override fun onCreate(savedInstanceState: Bundle?) {
