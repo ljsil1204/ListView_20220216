@@ -16,6 +16,7 @@ class StudentAdapter(
     val mList: ArrayList<StudentData>
 ) : ArrayAdapter<StudentData>( mContext, resId, mList ) {
 
+//  실제로 xml + 데이터 클래스 조합 => getView 함수 오버라이딩 (커스터마이징)
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
 
         var tempRow = convertView
