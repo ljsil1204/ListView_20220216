@@ -1,4 +1,12 @@
 package com.neppplus.listview_20220216.adapters
 
-class StudentAdapter {
+import android.content.Context
+import android.widget.ArrayAdapter
+import com.neppplus.listview_20220216.datas.StudentData
+
+class StudentAdapter(
+    val mContext: Context,
+    val resId:Int,
+    val mList: ArrayList<StudentData>
+) : ArrayAdapter<StudentData>( mContext, resId, mList ) {
 }
