@@ -9,6 +9,7 @@ import android.widget.TextView
 import com.neppplus.listview_20220216.R
 import com.neppplus.listview_20220216.datas.StudentData
 
+// 어댑터 클래스가 ArrayAdapter<데이터표현용 클래스(학생데이터)>() 상속받음 -> 재료는 StudentAdapter에서 만들어서 ArrayAdapter()에 전달
 class StudentAdapter(
     val mContext: Context,
     val resId:Int,
