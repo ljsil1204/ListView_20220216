@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-
+//    어댑터클래스의 멤버변수 생성
     lateinit var mAdapter : StudentAdapter
 
 //    데이터 목록 담을 그릇을 멤버변수로 생성
