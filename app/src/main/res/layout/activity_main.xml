@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!--  1. ListView UI 그리기   -->
     <ListView
         android:id="@+id/studentListView"
         android:layout_width="match_parent"
